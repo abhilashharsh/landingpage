@@ -1,0 +1,129 @@
+/* Add your CSS styles here */
+
+nav {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    justify-content: space-around; /* Spacing between items */
+    align-items: center; /* Vertically center items */
+    height: 50px; /* Set the height of the navbar */
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; 
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Heading*/
+.intro {
+    text-align:center;
+}
+
+.heading{
+    text-align:center;
+}
+
+/*Section*/
+.title{
+    text-align:center;
+}
+/*logos*/
+.logo1{
+    margin:auto 50px auto 250px;
+    position : relative;
+}
+
+/*upcoming tours section*/
+
+.title-upcoming-tours {
+    text-align: center;
+}
+/*about-container*/
+.about-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top:5px;
+
+}
+/*details container*/ 
+.details-container{
+padding: 1.5rem;
+flex: 1;
+background: white;
+border-radius: 2rem;
+border: rgb(53,53,53) 0.1rem solid;
+border-color: rgb(163,163,163);
+width:45%;
+display:inline-block;
+text-align: center;
+margin:auto 5px 10px auto;
+}
+/* trips*/
+
+.tour1{
+    text-align:center;
+
+}
+
+.tour2{
+    text-align:center;
+    
+}
+/* images*/
+.jodhpur-img{
+    width :15%;
+    align-items: center;
+    margin-top:10px;
+    margin-left:5px;
+    border-radius: 1.2rem;
+}
+.udaipur-img{
+    width :15%;
+    margin-top:10px;
+}
+
+/* Testimonial section */
+.title-testimonial{
+     text-align: center;
+}
+.testimonial-container{
+    align-items: center;
+    text-align:center;
+    
+}
+
+
+/*Contact details */
+.title-contacts{
+    text-align: center;
+}
+.footer-link {
+      text-align: center;
+      text-decoration: aqua;
+      align-items: center;
+      padding:0.5rem;
+      
+}
+.icon {
+    width:1%;
+    padding :0.2rem;
+}
+
